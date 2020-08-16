@@ -13,9 +13,12 @@ This project contains the Cloudformation yml files and deployment scripts necess
 ## Requirements
 * bash
 * GoLang 1.12+
-* [github.com/scottdear/acme-dns-route53](https://github.com/scottdear/acme-dns-route53)
+* Modified Fork of acme-dns-route53 [github.com/scottdear/acme-dns-route53](https://github.com/scottdear/acme-dns-route53)
+
+## Installation
 
 
-Credits:
+### Inspired by:
 * Sov Tech Insights - [ Creating a CloudFormation script to host a static site](https://medium.com/sovtech-insights/creating-a-cloudformation-script-to-host-a-static-site-on-s3-cloudfront-ssl-f9781c30e93c)
 * Roman Behma - [acme-dns-route53](https://github.com/begmaroman/acme-dns-route53)
+* Aric The Bearded - [My son's Dungeon Master for Hire site](https://www.aricthebearded.com) he let me use as a guinea pig.
