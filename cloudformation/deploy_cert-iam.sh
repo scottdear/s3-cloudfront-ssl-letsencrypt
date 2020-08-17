@@ -6,7 +6,6 @@
 # Dependencies: Must have created a private S3 bucket with deploy_s3.sh
 
 #Replace these w/ Environemt Variables in your CI/CD system(s)
-
 ENVIRONMENT="dev"
 AWS_ACCOUNT_ID="<YOUR_AWS_ACCOUNT_ID>"
 CUSTOMER="atb"

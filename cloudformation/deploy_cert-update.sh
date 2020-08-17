@@ -4,6 +4,8 @@
 # Cut paste/glue/hack/gouge - you know the drill
 # This builds and deploys the acme-dns-route53 Go Serverless Function
 
+#Dependencies: run deploy_s3.sh then deploy_cert-iam.sh before running this
+
 #Replace these w/ Environemt Variables in your CI/CD system(s)
 ENVIRONMENT="dev"
 RELEASE="0.1"     # Update this to force lambda code to update when no other config changes
