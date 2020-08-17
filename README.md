@@ -11,7 +11,9 @@ This project contains the Cloudformation yml files and deployment scripts necess
 * Easy integration w/ CI/CD tools like Jenkins
 
 ## Requirements
+* A registered domain  for your site, SSL certs, etc.
 * bash
+* A github account (for the buildy bits)
 * GoLang 1.12+
 * Modified Fork of acme-dns-route53 [github.com/scottdear/acme-dns-route53](https://github.com/scottdear/acme-dns-route53)
 
