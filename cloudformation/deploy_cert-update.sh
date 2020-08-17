@@ -1,6 +1,10 @@
 #!/bin/sh
-# This script would be called by your continuous delivery application, e.g. Ansible, Octopus, etc.
+# The buildy bits should be called by your CI system like Jenkins
+# The Deployment bits called by by your continuous delivery application, e.g. Ansible, Octopus, Jenkins etc.
 # Cut paste/glue/hack/gouge - you know the drill
+# This builds and deploys the acme-dns-route53 Go Serverless Function
+
+#Replace these w/ Environemt Variables in your CI/CD system(s)
 ENVIRONMENT="dev"
 RELEASE="0.1"     # Update this to force lambda code to update when no other config changes
 CUSTOMER="<YOUR_ID>"

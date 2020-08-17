@@ -1,4 +1,11 @@
 #!/bin/sh
+# This deploys the IAM roles needed to run the acme-dns-route53 lambda
+# The Deployment bits called by by your continuous delivery application, e.g. Ansible, Octopus, Jenkins etc.
+# Cut paste/glue/hack/gouge - you know the drill
+# This  Role is used by  the acme-dns-route53 Go Serverless Function deploy in cert-update.sh
+# Dependencies: Must have created a private S3 bucket with deploy_s3.sh
+
+#Replace these w/ Environemt Variables in your CI/CD system(s)
 
 ENVIRONMENT="dev"
 AWS_ACCOUNT_ID="<YOUR_AWS_ACCOUNT_ID>"

@@ -1,4 +1,6 @@
 #!/bin/sh
+# deploy_s3.sh - This creates the private S3 bucket to store certs and the different versions of
+# the cert-update Function acme-dns-route53.  This only needs to be run  once to initialize the bucket.
 
 ENVIRONMENT="dev"
 CUSTOMER="atb"
